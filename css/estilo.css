@@ -98,9 +98,9 @@ h2{ /*subtitulos*/
     background-color:#F4E0A6;
   }
 #menu-h ul li:last-child a { /*botao entrar*/
-   margin-top: 0px;
+   margin-top: 10px;
    margin-right: 20px;
-   margin-left: 3px;
+   margin-left: 10px;
    margin-bottom: auto;
   float: right;
    background-color:#FFC955;
