@@ -352,8 +352,8 @@ height: 100%
   
   }
 
-  /*CSS DO FORM*/
-  .espaco{
+ /*CSS DO FORM*/
+ .espaco{
   position: relative;
     width: 100%;
   }
@@ -393,14 +393,14 @@ height: 100%
     font-family: "Inter", sans-serif;
     position: relative;
   }
-  
+
   .logo_container {
     margin-bottom:50px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 100px;
     height: 80px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(248, 248, 248, 0)), to(#171ed4));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(248, 248, 248, 0)), to(#F8F8F888));
     background: #F7F2EF;
     border: 1px solid #F7F7F8;
     -webkit-filter: drop-shadow(0px 0.5px 0.5px #EFEFEF) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
@@ -412,7 +412,7 @@ height: 100%
     height: 100px;
     position: relative;
   }
-  
+
   .title_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -429,22 +429,22 @@ height: 100%
             justify-content: center;
     gap: 10px;
   }
-  
+
   .title {
     margin: 0;
     font-size: 1.25rem;
     font-weight: 700;
     color: #050A30;
   }
-  
+
   .subtitle {
     font-size: 0.725rem;
     max-width: 80%;
     text-align: center;
     line-height: 1.1rem;
-    color: #171ed4;
+    color: #C29CDE;
   }
-  
+
   .input_container {
     width: 100%;
     height: -webkit-fit-content;
@@ -460,7 +460,7 @@ height: 100%
             flex-direction: column;
     gap: 5px;
   }
-  
+
   .icon {
     width: 20px;
     position: absolute;
@@ -468,13 +468,13 @@ height: 100%
     left: 12px;
     bottom: 9px;
   }
-  
+
   .input_label {
     font-size: 0.75rem;
-    color: #171ed4;
+    color: #C29CDE;
     font-weight: 600;
   }
-  
+
   .input_field {
     width: auto;
     height: 40px;
@@ -489,14 +489,14 @@ height: 100%
     -webkit-transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
     transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
   }
-  
+
   .input_field:focus {
     border: 1px solid transparent;
-    -webkit-box-shadow: 0px 0px 0px 2px #171ed4;
-            box-shadow: 0px 0px 0px 2px #171ed4;
+    -webkit-box-shadow: 0px 0px 0px 2px #8848C4;
+            box-shadow: 0px 0px 0px 2px #8848C4;
     background-color: transparent;
   }
-  
+
   .sign-in_btn {
     width: 100%;
     height: 40px;
@@ -507,7 +507,7 @@ height: 100%
     color: #ffffff;
     cursor: pointer;
   }
-  
+
   .sign-in_ggl {
     width: 100%;
     height: 40px;
@@ -524,7 +524,7 @@ height: 100%
     background: #ffffff;
     border-radius: 7px;
     outline: none;
-    color: #171ed4;
+    color: #C29CDE;
     border: 1px solid #e5e5e5;
     -webkit-filter: drop-shadow(0px 1px 0px #efefef)
       drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
@@ -532,7 +532,7 @@ height: 100%
       drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
     cursor: pointer;
   }
-  
+
   .sign-in_apl {
     width: 100%;
     height: 40px;
@@ -557,7 +557,7 @@ height: 100%
       drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
     cursor: pointer;
   }
-  
+
   .separator {
     width: 100%;
     display: -webkit-box;
@@ -570,9 +570,9 @@ height: 100%
         -ms-flex-pack: center;
             justify-content: center;
     gap: 30px;
-    color: #171ed4;
+    color: #C29CDE;
   }
-  
+
   .separator .line {
     display: block;
     width: 100%;
@@ -580,12 +580,15 @@ height: 100%
     border: 0;
     background-color: #e8e8e8;
   }
-  
+
   .note {
     font-size: 0.75rem;
-    color: #fff;
+    color: #D7F0D3;
     text-decoration: underline;
   }
+  
+  
+
 
   /*card de aprosentação - pag sobre*/
   .espaco{
@@ -595,11 +598,11 @@ height: 100%
   .card_sobre {
     position: -webkit-sticky;
     margin-bottom:50px;
-    margin-top:210px;
+    margin-top:110px;
     width: 400px;
     height: 700px;
     gap: 10px;
-    background:#171ed4;
+    background:#fff0e7;
     transition: 1s ease-in-out;
     clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
     border-top-right-radius: 20px;
@@ -608,7 +611,7 @@ height: 100%
     flex-direction: column;
   }
   .espaco{
-  
+    margin-top: 300px;
     position: relative;
   }
   .card_sobre span {
@@ -619,41 +622,41 @@ height: 100%
     display: block;
     font-size: 2em;
   }
-  
+
   .card_sobre .info {
     font-weight: 600;
-    color:white;
+    color:#D7F0D3;
     display: block;
     text-align: center;
     font-size: 1.2em;
     margin: 2em;
   }
-  
+
   .card_sobre img {
     margin-bottom:5px;
     margin-top:50px;
     width: 150px;
     height: 150px;
     border-radius: 15px;
-   
+
   }
-  
+
   .card_sobre .share {
     margin-top: 1em;
     display: flex;
     justify-content: center;
     gap: 1em;
   }
-  
+
   .card_sobre a {
     color:#050A30;
     transition: .4s ease-in-out;
   }
-  
+
   .card_sobre a:hover {
     color: #050A30;
   }
-  
+
   .card_sobre button {
     padding: 0.8em 1.7em;
     display: block;
@@ -662,15 +665,18 @@ height: 100%
     border: none;
     font-weight: bold;
     background: #ffffff;
-    color:#171ed4;
+    color:#8848C4;
     transition: .4s ease-in-out;
   }
-  
+
   .card_sobre button:hover {
-    background: #171ed4;
+    background: #FCEC94;
     color: white;
     cursor: pointer;
   }
+ 
+  
+  
   
 /* Inicio do rodapé */
 footer {
