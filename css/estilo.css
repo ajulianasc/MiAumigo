@@ -608,7 +608,7 @@ height: 100%
     flex-direction: column;
   }
   .espaco{
-    margin-top: 300px;
+  
     position: relative;
   }
   .card_sobre span {
