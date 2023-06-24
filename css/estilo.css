@@ -49,7 +49,7 @@ header{
     border: 2px solid transparent;
     border-radius: 8px;
     outline: none;
-    background-color: #F4E0A6;
+    background-color: #fff;
     color: #0d0c22;
     transition: .3s ease;
     margin-left: 70px;
@@ -98,10 +98,7 @@ h2{ /*subtitulos*/
     background-color:#F4E0A6;
   }
 #menu-h ul li:last-child a { /*botao entrar*/
-   margin-top: 12px;
-   margin-right: 20px;
-   margin-left: 3px;
-   margin-bottom: auto;
+    top: 50%;
    float: right;
    background-color:#FFC955;
    color:#fff;
