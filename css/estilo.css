@@ -30,7 +30,7 @@ header{
     margin-top:0;
     margin-bottom: 0;
     padding:none;
-    margin-left: ;
+    margin-left: 10px;
   }
 .group { /*barra de pesquisa*/
     display: inline-block;
