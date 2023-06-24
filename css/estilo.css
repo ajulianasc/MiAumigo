@@ -34,10 +34,10 @@ header{
   }
 .group { /*barra de pesquisa*/
     display: inline-block;
-    line-height: 50px;
+    line-height: 30px;
     align-items: center;
     position: relative;
-    max-width: 600px;
+    max-width: 450px;
   
    }
 .input {
@@ -49,7 +49,7 @@ header{
     border: 2px solid transparent;
     border-radius: 8px;
     outline: none;
-    background-color: #f3f3f4;
+    background-color: #F4E0A6;
     color: #0d0c22;
     transition: .3s ease;
     margin-left: 70px;
@@ -102,7 +102,7 @@ h2{ /*subtitulos*/
    margin-right: 20px;
    margin-left: 3px;
    margin-bottom: auto;
-  float: right;
+   float: right;
    background-color:#FFC955;
    color:#fff;
   }
