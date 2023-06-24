@@ -25,12 +25,12 @@ header{
     display: inline;
   }
 #menu-h ul li img{
-    height: 30px; 
-    width: 30px;
+    height: 50px; 
+    width: 50px;
     margin-top:0;
     margin-bottom: 0;
     padding:none;
-    margin-left: 5px;
+    margin-left: ;
   }
 .group { /*barra de pesquisa*/
     display: inline-block;
