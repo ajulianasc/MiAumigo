@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miaumigo</title>
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+  <!--MENU PRINCIPAL HORIZONTAL-->
+  <header class="header">
+    <nav id="menu-h">
+        <ul>
+            <li><a href="./index.html"><img src="./images/logotransp.png"  ></a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./produtos.html">Produtos</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+            <li><div class="group">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                <input placeholder="Pesquisar" type="search" class="input">
+              </div></li>
+            <li><a href="./entrar.html">Entrar</a></li> 
+        </ul>
+    </nav>
+</header>
+<div="espaco_produtos"><p></p></div>
+<div class="banner2"><img src="./images/bannerespaco.png"  ></div>
+    
+  <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+       <img src="./images/banner1.png" style="width:100%; height: 70%">
+    </div>
+    
+    <div class="mySlides fade">
+       <img src="./images/banner2.png" style="width:100%; height: 70%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="./images/banner3.png" style="width:100%;height: 70%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+        <br>    
+<div><h1><center>CONFIRA NOSSAS PROMOÇÕES!</center></h1></div>
+<div class="row_flipcard">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cobasi.vteximg.com.br/arquivos/ids/1008003-400-400/Keldog-500g-carne.jpg?v=638156885332670000" alt="Denim Jeans" style="width:50%">
+          <p class="title">Petisco Bifinho Keldog Carne</p>
+          <p class="price">R$23,92</p>
+          <p>Saiba mais</p>
+      </div>
+      <div class="flip-card-back">
+          <p class="title">Descrição</p>
+          <p>Petisco Bifinho Keldog Carne e Cereais Raças Pequenas 500 g</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cobasi.vteximg.com.br/arquivos/ids/1044678/Racao-Premier-Ambientes-Internos-Caes-Adultos-Medio-Frango-e-Salmao-25kg-lateral.png?v=638163063802570000" alt="Denim Jeans" style="width:50%">
+          <p class="title">Ração Premier Cães Adultos</p>
+          <p class="price">R$85,90</p>
+          <p>Saiba mais</p>
+      </div>
+      <div class="flip-card-back">
+          <p class="title">Descrição</p>
+          <p>Ração Premier Ambientes Internos Cães Adultos Médio Frango e Salmão 2,5 kg</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://images.petz.com.br/fotos/1658415086408.jpg" alt="Denim Jeans" style="width:50%">
+          <p class="title">Ração Golden para Gatos Adultos</p>
+          <p class="price">R$154.99</p>
+          <p>Saiba mais</p>
+      </div>
+      <div class="flip-card-back">
+          <p class="title">Descrição</p>
+          <p>Ração Golden para Gatos Adultos Sabor Carne 10,1kg</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cobasi.vteximg.com.br/arquivos/ids/776715-400-400" alt="Denim Jeans" style="width:50%">
+          <p class="title">Petisco Whiskas Temptations</p>
+          <p class="price">R$8.87</p>
+          <p>Saiba mais</p>
+      </div>
+      <div class="flip-card-back">
+          <p class="title">Descrição</p>
+          <p>Petisco Whiskas Temptations Pelo Saudável Para Gatos Adultos 40 g</p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="https://cobasi.vteximg.com.br/arquivos/ids/1032366-400-400/alimento-umido-gran-plus-gatos-trato-urinario-frango-85g-frente.jpg?v=638043767765400000" alt="Denim Jeans" style="width:50%">
+          <p class="title">Ração Úmida GranPlus Gourmet Gatos</p>
+          <p class="price">R$2.99</p>
+          <p>Saiba mais</p>
+      </div>
+      <div class="flip-card-back">
+          <p class="title">Descrição</p>
+          <p>Ração Úmida GranPlus Gourmet Gatos Trato Urinário Frango 85 g</p>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="column">
+      <div class="card">
+                <img src="https://cobasi.vteximg.com.br/arquivos/ids/1045691-400-400/Brinquedo-Dentalbone-Tubo-com-Corda-Odontopet-Frente.png?v=638175173699570000" alt="Denim Jeans" style="width:100%">
+                <h2>Brinquedo Dentalbone Tubo com Corda</h2>
+                <p class="price">R$27.90</p>
+                <p>Totalmente atóxico;
+                  Desenvolvido para mordidas moderadas;
+                  Cerdas arredondadas e macias;
+                                                </p><br>
+                <p><button>Adicione no carrinho</button></p>
+      </div>
+</div>
+<div class="column">
+            <div class="card">
+                <img src="https://images.petz.com.br/fotos/1646250537047.jpg" alt="Denim Jeans" style="width:100%">
+                <h2>Brinquedo Nabi Bolinha Sisal para Gatos</h2>
+                <p class="price">R$24.99</p>
+                <p> Ideal para se divertir por horas;
+                   Mantém seu pet entretido;
+                   Livre seu pet do tédio;</p><br>
+                <p><button>Adicione no carrinho</button></p>
+              </div>
+</div>
+<div class="column">
+            <div class="card">
+                <img src="https://images.tcdn.com.br/img/img_prod/573283/caminha_para_cachorro_ou_gato_preta_snoopy_face_black_cama_caes_zooz_pets_538355_1_29183f7ee54a91f78bc1764e38625a1e.jpg" style="width:100%">
+                <h2>Cama para Cachorro</h2>
+                <p class="price">R$120.65</p>
+                <p> 01 Cama pet para cachorro dupla face
+                  Tamanho:
+                  50cm Larg.x40cm Comp. x 15cm Alt
+                  </p><br>
+                <p><button>Adicione no carrinho</button></p>
+              </div>
+</div>
+<div class="column">
+            <div class="card">
+                <img src="https://www.tiendanimal.es/dw/image/v2/BDLQ_PRD/on/demandware.static/-/Sites-kiwoko-master-catalog/default/dw8f104b02/images/accesorios_gatos_cathsion_cama_donut_geometric_blue_CSH70515_2.jpg?sw=780&sh=780&q=85" style="width:100%">
+                <h2>Catshion geometric cama marrón para gatos</h2>
+                <p class="price">R$140.24</p>
+                <p>Cama para gatos.
+                  Formato de donut.
+                  Forrada com um tecido suave de pele sintética.
+                                                   </p><br>
+                <p><button>Adicione no carrinho</button></p>
+            </div>
+ </div>          
+<div class="column">
+        <div class="card">
+            <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/932/734/products/193e566e5a0505cce6832c36bc3f0b52-510fb65fde4fac655d16822152188916-640-0.webp" style="width:100%">
+            <h2>Arranhador de gato</h2>
+            <p class="price">R$150.90</p>
+            <p>Cama de gato grande com brinquedo para gatos</p><br>
+            <p><button>Adicione no carrinho</button></p>
+        </div>
+</div>
+<div class="column">
+        <div class="card">
+            <img src="https://carrefourbr.vtexassets.com/arquivos/ids/94917707-540-auto?v=638089720643230000&width=540&height=auto&aspect=true">
+            <h2></h2>
+            <p class="price">R$80.40</p>
+            <p>Material: Inox
+              Medidas: Altura 4 cm, largura interna 11 cm, largura externa 15,5 cm
+              Base de borracha antiderrapante
+              Capacidade: 200ML</p><br>
+            <p><button>Adicione no carrinho</button></p>
+          </div>
+</div>
+<div class="column">
+        <div class="card">
+            <img src="https://a-static.mlcdn.com.br/800x560/vasilha-pote-tigela-de-inox-racao-e-agua-cachorros-e-gatos-p-elo/petmegluna/752159513/43e5f92dae1b1b3e24d301a928703d57.jpeg" style="width:100%">
+            <h2>Vasilha pote tigela de inox ração e água para gatos</h2>
+            <p class="price">R$78,55</p>
+            <p>Fácil higienização;
+              Produzido e fechado com alumínio;
+              Possui areia e cimento em seu interior, dificultando a movimentação do pote pelo animal.</p><br>
+            <p><button>Adicione no carrinho</button></p>
+          </div>
+</div>
+<div class="column">
+        <div class="card">
+            <img src="https://a-static.mlcdn.com.br/800x560/baba-pet-3-antenas-robo-full-hd-1080p-wifi-sem-fio-gira-360o-audio-visao-noturna-onvif-e-think/afcameras/ee480a6ca39e11eb83fb4201ac1850f5/706af43c5de8eddc8948ea5acfa84e20.jpeg" style="width:100%">
+            <p class="price">R$169.99</p>
+            <p>baba Pet 3 Antenas            
+            <h2>Camera Para Monitorar Pet </h2>
+            <p>Robô Full HD 1080P Wifi Sem Fio Gira 360º Áudio Visão Noturna...</p><br>
+            <p><button>Adicione no carrinho</button></p>
+          </div>
+</div>
+</div>
+</div>
+
+<footer>  
+    <div class="footer"> <CENTER><img src="./images/logotransp2.png" style="width: 5%;">
+        <p>Author: Ysabella Soares</p></CENTER>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechDog</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="script" href="./js/slider.js">
+
+</head>
+   <!--MENU PRINCIPAL HORIZONTAL-->
+   <header class="header">
+    <nav id="menu-h">
+        <ul>
+            <li><a href="./index.html"><img src="./images/favicon.ico" ></a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./produtos.html">Produtos</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+            <li><div class="group">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                <input placeholder="Pesquisar" type="search" class="input">
+              </div></li>
+            <li><a href="./entrar.html">Entrar</a></li> 
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <!--BANNER PRINCIPAL-->
+    <div class="slider">
+    <div class="slideshow-container" style="height: auto;">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="./images/Banner.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="./images/Banner.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+           <img src="./images/Banner.png" style="width:100%">
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+</div>    
+
+    <!--IMAGENS DOS PRODUTOS-->
+    <div class="row" id="produtos">
+        <div class="column">
+            <div class="card">
+                <img src="https://cobasi.vteximg.com.br/arquivos/ids/185843-400-400/Petisco-Friskies-Camarao-Salmao-e-Atum.jpg?v=638133806488200000">
+                <h2>Petisco cachorro</h2>
+                <p class="price">R$899.99</p>
+                <p>Petisco pra cachorro</p><br>
+                <p><button>Adicione no carrinho</button></p>
+              </div>
+        </div>
+
+        
+        <div class="column">
+            <div class="card">
+                <img src="https://www.petlove.com.br/images/products/265432/hd_no_extent/Petisco_Nestl%C3%A9_Purina_Friskies_Party_Mix_Frango__F%C3%ADgado_e_Peru_para_Gatos_Adultos.jpg?1669299372" alt="Denim Jeans" style="width:100%">
+                <h2>Petisco cachorro</h2>
+                <p class="price">R$299.99</p>
+                <p>Petisco pra cachorro</p><br>
+                <p><button>Adicione no carrinho</button></p>
+              </div>
+        </div>
+    
+        <div class="column">
+            <div class="card">
+                <img src="https://cobasi.vteximg.com.br/arquivos/ids/1044678/Racao-Premier-Ambientes-Internos-Caes-Adultos-Medio-Frango-e-Salmao-25kg-lateral.png?v=638163063802570000">
+                <h2>WEASY OÁSIS</h2>
+                <p class="price">R$359.99</p>
+                <p> bebedouro inteligente garante água limpa, fresca e abundante dia e noite..</p><br>
+                <p><button>Adicione no carrinho</button></p>
+              </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="https://images.petz.com.br/fotos/1683815051322.jpg" style="width:100px">
+                <h2>WEASY CÃO BANHEIRO</h2>
+                <p class="price">R$549.99</p>
+                <p>Banheiro inteligente para cachorro com escoamento direto para o ralo ou para Weasy Bag...</p><br>
+                <p><button>Adicione no carrinho</button></p>
+              </div>
+        </div>
+   
+      
+    </div>
+</div>
+</section>
+<section>
+<div class="row" id="brinquedos">
+    <div class="column">
+        <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/0612/6010/3926/products/Se3a4f6dacded42abb01307c279f27dfe5_dad0ea3b-e105-4861-ba38-8370ef0bd9e3_500x500_crop_center.jpg?v=1674771636" style="width:100%">
+            <h2>Lançador Automático de Bolinha para Cachorro</h2>
+            <p class="price">R$729.99</p>
+            <p>O Lançador Automático de Bolinha para Cachorros é o brinquedo perfeito para garantir a momentos de alegria para o seu pet...</p><br>
+            <p><button>Adicione no carrinho</button></p>
+          </div>
+    </div>
+
+    
+    <div class="column">
+        <div class="card">
+            <img src="https://tudodebicho.vtexassets.com/arquivos/ids/161717-1200-auto?v=638122345204500000&width=1200&height=auto&aspect=true" style="width:100%">
+            <h2>Bola de brinquedo interativa inteligente</h2>
+            <p class="price">R$49.99</p>
+            <p>Brinquedos espertos do gato do rolamento automático dos brinquedos bondes da bola do gato para o treinamento dos gatos brinquedos jogo interativo interno..</p><br>
+            <p><button>Adicione no carrinho</button></p>
+          </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_690960-CBT52676038136_122022-O.webp" style="width:100%">
+            <h2>Tapete Pet Térmico Elétrico</h2>
+            <p class="price">R$199.99</p>
+            <p> Pet Heating Pad Mat for dogs, cats and puppies 45x45cm Temperature Termopet Easy..</p><br>
+            <p><button>Adicione no carrinho</button></p>
+          </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="https://a-static.mlcdn.com.br/800x560/baba-pet-3-antenas-robo-full-hd-1080p-wifi-sem-fio-gira-360o-audio-visao-noturna-onvif-e-think/afcameras/ee480a6ca39e11eb83fb4201ac1850f5/706af43c5de8eddc8948ea5acfa84e20.jpeg" style="width:100%">
+            <p class="price">R$169.99</p>
+            <p>baba Pet 3 Antenas            <h2>Camera Para Monitorar Pet </h2>
+ Robô Full HD 1080P Wifi Sem Fio Gira 360º Áudio Visão Noturna...</p><br>
+            <p><button>Adicione no carrinho</button></p>
+          </div>
+    </div>
+
+  
+</div>
+</div>
+</section>
+  <footer> 
+   
+    
+    <div class="footer"> <CENTER><img src="./images/4.png" style="width: 5%;">
+        <p>Author: Ysabella Soares</p></CENTER>
+    </div>
+  </footer>
+</body>
+</html>
