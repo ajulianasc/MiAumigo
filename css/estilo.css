@@ -99,7 +99,7 @@ h2{ /*subtitulos*/
   }
 #menu-h ul li:last-child a { /*botao entrar*/
    margin: 20px;
-   bottom:10%;
+   bottom:20%;
    float: right;
    background-color:#FFC955;
    color:#ffff;
@@ -200,6 +200,7 @@ img {vertical-align: middle;}
 .banner {
 width: 100%;
 height: 100%
+margin-top: 30px;
 }
 .banner img{
   margin-top: 30px;
