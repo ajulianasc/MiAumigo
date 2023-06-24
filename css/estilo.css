@@ -588,7 +588,6 @@ height: 100%
   }
 
   /*card de aprosentação - pag sobre*/
-  /*card de aprosentação - pag sobre*/
   .espaco{
     position: relative;
       width: 100%;
@@ -600,7 +599,7 @@ height: 100%
     width: 400px;
     height: 700px;
     gap: 10px;
-    background:#9b7777;
+    background:#fff0e7;
     transition: 1s ease-in-out;
     clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
     border-top-right-radius: 20px;
@@ -615,7 +614,7 @@ height: 100%
   .card_sobre span {
     font-weight: bold;
     font-family: 'Share Tech', sans-serif;
-    color: rgb(124, 99, 99);
+    color:#050A30;
     text-align: center;
     display: block;
     font-size: 2em;
@@ -623,7 +622,7 @@ height: 100%
   
   .card_sobre .info {
     font-weight: 600;
-    color:#E69760;
+    color:#D7F0D3;
     display: block;
     text-align: center;
     font-size: 1.2em;
@@ -632,7 +631,7 @@ height: 100%
   
   .card_sobre img {
     margin-bottom:5px;
-  
+    margin-top:50px;
     width: 150px;
     height: 150px;
     border-radius: 15px;
@@ -647,12 +646,12 @@ height: 100%
   }
   
   .card_sobre a {
-    color:#E64F56;
+    color:#050A30;
     transition: .4s ease-in-out;
   }
   
   .card_sobre a:hover {
-    color: red;
+    color: #050A30;
   }
   
   .card_sobre button {
@@ -663,15 +662,16 @@ height: 100%
     border: none;
     font-weight: bold;
     background: #ffffff;
-    color:#553334;
+    color:#171ed4;
     transition: .4s ease-in-out;
   }
   
   .card_sobre button:hover {
-    background: #E64F56;
+    background: #FCEC94;
     color: white;
     cursor: pointer;
   }
+  
 /* Inicio do rodapé */
 footer {
   background: #F7F2EF ;
