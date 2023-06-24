@@ -98,8 +98,8 @@ h2{ /*subtitulos*/
     background-color:#F4E0A6;
   }
 #menu-h ul li:last-child a { /*botao entrar*/
-   margin: 100px;
-   bottom:30%;
+   margin: 90px;
+   bottom:20%;
    float: right;
    background-color:#FFC955;
    color:#ffff;
