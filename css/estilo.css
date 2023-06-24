@@ -180,7 +180,7 @@ img {vertical-align: middle;}
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #171ed4;
 }
 
 /* Fading animation */
@@ -289,7 +289,7 @@ height: 100%
 }
 
 .flip-card-back {
-  background:(bisque 40%, );
+  background:(#171ed4 40%, );
   color: white;
   transform: rotateY(180deg);
 }
