@@ -595,7 +595,7 @@ height: 100%
   .card_sobre {
     position: -webkit-sticky;
     margin-bottom:50px;
-    margin-top:110px;
+    margin-top:210px;
     width: 400px;
     height: 700px;
     gap: 10px;
