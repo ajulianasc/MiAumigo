@@ -101,7 +101,7 @@ h2{ /*subtitulos*/
    margin: 40px;
    bottom:40%;
    float: right;
-   background-color:black;
+   background-color: #171ed4;
    color:#ffff;
   }
   * {box-sizing:border-box}
