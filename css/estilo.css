@@ -236,7 +236,7 @@ height: 100%
 .row_flipcard{
   margin-top: 50px;
   padding:20px;
-  background-color: #F7F2EF;
+  background-color: #F4E0A6;
   display: flex;
 }
 .flip-card {
@@ -290,7 +290,7 @@ height: 100%
 
 .flip-card-back {
   background:(#171ed4 40%, );
-  color: white;
+  color: black;
   transform: rotateY(180deg);
 }
 
