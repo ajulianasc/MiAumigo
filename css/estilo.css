@@ -528,7 +528,7 @@ height: 100%
   
 
 
-  /*card de aprosentação - pag sobre*/
+  /*card de apresentação - pag sobre*/
   .espaco{
     position: relative;
       width: 100%;
@@ -540,7 +540,7 @@ height: 100%
     width: 400px;
     height: 700px;
     gap: 10px;
-    background:#fff0e7;
+    background:#7479ff;
     transition: 1s ease-in-out;
     clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
     border-top-right-radius: 20px;
@@ -563,7 +563,7 @@ height: 100%
 
   .card_sobre .info {
     font-weight: 600;
-    color:#D7F0D3;
+    color:black;
     display: block;
     text-align: center;
     font-size: 1.2em;
