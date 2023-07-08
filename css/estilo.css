@@ -664,7 +664,7 @@ height: 100%
 
 }
 
-.main_footer   { background-color:#F9B013; color:#fff; font-size:1em; }
+.main_footer   { background-color:#7479FF; color:#fff; font-size:1em; }
 
 .main_footer .content { float:left; width:80%; margin:0 10%; padding: 5em 0; }
 .container { float:left; width:100%; }
@@ -757,7 +757,7 @@ height: 100%
 }
 
 .btn-hover        { color: #9304cc; }
-.btn-hover::after { background: #171ed4; }
+.btn-hover::after { background: #F9B013; }
 
 .main_footer_copy   { background-color:#9304cc; width:100%; float:left; text-align:center; padding:1.5em 0em; }
 .main_footer_copy p { font-family: 'Lato', sans-serif; font-size:1em; color:#e1e0e0; height:20px; }
