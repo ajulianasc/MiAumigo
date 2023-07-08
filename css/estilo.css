@@ -95,13 +95,13 @@ h2{ /*subtitulos*/
     color:#171ed4;
   }
 #menu-h ul li a:hover {
-    background-color:#F4E0A6;
+    background-color:#F9B013;
   }
 #menu-h ul li:last-child a { /*botao entrar*/
    margin: 20px;
    bottom:40%;
    float: right;
-   background-color: #F9B013;
+   background-color: #171ed4;
    color:#ffff;
   }
   * {box-sizing:border-box}
