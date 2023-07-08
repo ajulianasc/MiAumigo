@@ -25,12 +25,9 @@ header{
     display: inline;
   }
 #menu-h ul li img{
-    height: 100px; 
-    width: 100px;
-    margin-top:0;
-    margin-bottom: 0;
-    padding:none;
-    margin-left: 0;
+    height: 100%; 
+    width: 100%;
+    
   }
 .group { /*barra de pesquisa*/
     display: inline-block;
