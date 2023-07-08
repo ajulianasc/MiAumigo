@@ -756,10 +756,10 @@ height: 100%
   height: 30px;
 }
 
-.btn-hover        { color: #9304cc; }
+.btn-hover        { color: #F9B013; }
 .btn-hover::after { background: #F9B013; }
 
-.main_footer_copy   { background-color:#9304cc; width:100%; float:left; text-align:center; padding:1.5em 0em; }
+.main_footer_copy   { background-color:#F9B013; width:100%; float:left; text-align:center; padding:1.5em 0em; }
 .main_footer_copy p { font-family: 'Lato', sans-serif; font-size:1em; color:#e1e0e0; height:20px; }
 .main_footer_copy .m-b-footer   { margin-bottom:0.5em; }
 .main_footer_copy .by   { font-size:0.96em; }
