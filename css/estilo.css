@@ -660,11 +660,11 @@ height: 100%
 
 .footer-ondulado-top .shape-fill {
   
-  fill: #F9B013;
+  fill: #FFC955;
 
 }
 
-.main_footer   { background-color:#F9B013; color:#fff; font-size:1em; }
+.main_footer   { background-color:#FFC955; color:#fff; font-size:1em; }
 
 .main_footer .content { float:left; width:80%; margin:0 10%; padding: 5em 0; }
 .container { float:left; width:100%; }
