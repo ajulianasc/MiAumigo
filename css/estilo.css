@@ -757,7 +757,7 @@ height: 100%
 }
 
 .btn-hover        { color: #8a1679; }
-.btn-hover::after { background: #000000; }
+.btn-hover::after { background: #171ed4; }
 
 .main_footer_copy   { background-color:#8a1679; width:100%; float:left; text-align:center; padding:1.5em 0em; }
 .main_footer_copy p { font-family: 'Lato', sans-serif; font-size:1em; color:#e1e0e0; height:20px; }
