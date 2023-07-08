@@ -592,7 +592,7 @@ height: 100%
   }
 
   .card_sobre a:hover {
-    color: #050A30;
+    color: #F9B013;
   }
 
   .card_sobre button {
@@ -664,7 +664,7 @@ height: 100%
 
 }
 
-.main_footer   { background-color:#7479FF; color:#fff; font-size:1em; }
+.main_footer   { background-color:#F9B013; color:#fff; font-size:1em; }
 
 .main_footer .content { float:left; width:80%; margin:0 10%; padding: 5em 0; }
 .container { float:left; width:100%; }
@@ -690,7 +690,7 @@ height: 100%
   color:#ffffff; 
   padding-bottom: 0.5em; 
   margin-bottom:0.5em; 
-  border-bottom:1px #9304cc solid;
+  border-bottom:1px #171ED4 solid;
 
 }
 
