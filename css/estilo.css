@@ -14,7 +14,7 @@ header{
    display: block;
 }
 #menu-h {
-    background-color:#9304cc;
+    background-color:#FFC955;
   }
 #menu-h ul {
     margin-left: 20px;
@@ -101,7 +101,7 @@ h2{ /*subtitulos*/
    margin: 20px;
    bottom:40%;
    float: right;
-   background-color: #171ed4;
+   background-color: #F9B013;
    color:#ffff;
   }
   * {box-sizing:border-box}
