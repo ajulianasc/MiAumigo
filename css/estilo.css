@@ -14,7 +14,7 @@ header{
    display: block;
 }
 #menu-h {
-    background-color:#7479ff;
+    background-color:#9304cc;
   }
 #menu-h ul {
     margin-left: 20px;
@@ -627,7 +627,7 @@ height: 100%
 .formulario label span { font-size:1em; color: #17badf; float:left; margin-bottom:5px; font-family:'Lato'; }
 .formulario .campo     { font-size:1.2em; color:#7b7979; font-family:'Lato'; outline:none; border:1px #dee5ed solid; border-radius:8px; padding:0.6em; transition:.5s; }
 .formulario .campo:focus { border: 1px rgb(146, 18, 110) solid; color: #921285; }
-.formulario .btn-enviar  { width:160px; float:left; margin-top:5px; background-color:#c53fb3; color:#ffffff; border:none; border-radius:8px; cursor:pointer; padding:0.5em 0em; font-size:1.5em; font-family:'Lato'; transition: 0.2s; }
+.formulario .btn-enviar  { width:160px; float:left; margin-top:5px; background-color:#9304cc; color:#ffffff; border:none; border-radius:8px; cursor:pointer; padding:0.5em 0em; font-size:1.5em; font-family:'Lato'; transition: 0.2s; }
 .formulario .btn-enviar:hover { background-color:#92127b; }
 
 .info     { width:100%; float:left; display:block; margin-bottom:20px; }
