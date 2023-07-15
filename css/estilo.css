@@ -25,7 +25,7 @@ header{
     display: inline;
   }
 #menu-h ul li img{
-    height: 100px; 
+    height: 90px; 
     width: 100px;
     margin-top:0;
     margin-bottom: 0;
@@ -50,7 +50,7 @@ header{
     border-radius: 8px;
     outline: none;
     background-color: #fff;
-    color: #0d0c22;
+    color: white;
     transition: .3s ease;
     margin-left: 70px;
    }
