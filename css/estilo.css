@@ -439,10 +439,10 @@ height: 100%
   }
 
   .sign-in_btn {
-    width: 100%;
+    width: 90%;
     height: 40px;
     border: 0;
-    background: #F0D5C4;
+    background: #FFC955;
     border-radius: 7px;
     outline: none;
     color: #ffffff;
