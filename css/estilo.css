@@ -402,11 +402,11 @@ height: 100%
   }
 
   .icon {
-    width: 20px;
+    width: 30px;
     position: absolute;
     z-index: 99;
     left: 12px;
-    bottom: 9px;
+    bottom: 0px;
   }
 
   .input_label {
