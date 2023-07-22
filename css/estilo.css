@@ -326,7 +326,7 @@ height: 100%
             justify-content: center;
     gap: 10px;
     padding: 40px 40px 20px 40px;
-    background-color: #7479FF;
+    background-color:#7479FF;
     -webkit-box-shadow: 0px 6px 2px #d6cece,
     0px 9px 6px #d6d1dd, 0px 26px 26px #b5aeaf,
     0px 7px 15px #b5aeaf, 0px 0px 0px #b5aeaf;
@@ -340,12 +340,13 @@ height: 100%
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 100px;
-    height: 80px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(248, 248, 248, 0)), to(#F8F8F888));
-    background: #F7F2EF;
-    border: 1px solid #F7F7F8;
-    -webkit-filter: drop-shadow(0px 0.5px 0.5px #EFEFEF) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
-            filter: drop-shadow(0px 0.5px 0.5px #EFEFEF) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+    height: 90px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(19, 18, 18, 0)), to(#F8F8F888));
+    background: #7479FF;
+    background: #7479FF;
+    border: 1px solid ;
+    -webkit-filter: drop-shadow(0px 0.5px 0.5px #7479FF;) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+            filter: drop-shadow(0px 0.5px 0.5px #7479FF;) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
     border-radius: 11px;
   }
   .logo_container img{
