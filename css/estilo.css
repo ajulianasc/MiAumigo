@@ -124,7 +124,7 @@ h2{ /*subtitulos*/
   margin-top: 70px;
 }
 /* Next & previous buttons */
-.prev, .next {
+  .prev.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
