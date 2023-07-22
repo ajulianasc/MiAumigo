@@ -58,7 +58,7 @@ header{
     border-radius: 15px;
     outline: none;
     background-color: #fff;
-    color: white;
+    color: rgb(0, 0, 0);
     transition: .3s ease;
     margin-left: 80px;
    }
