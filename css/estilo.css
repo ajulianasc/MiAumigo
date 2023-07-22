@@ -60,7 +60,7 @@ header{
     background-color: #fff;
     color: white;
     transition: .3s ease;
-    margin-left: 70px;
+    margin-left: 80px;
    }
 .input::placeholder {
     color:#171ed4;
