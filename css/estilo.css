@@ -43,7 +43,7 @@ header{
     display: inline-block;
     line-height: 30px;
     align-items: center;
-    position: relative;
+    position: center;
     max-width: 450px;
     padding-bottom: 10px;
   
