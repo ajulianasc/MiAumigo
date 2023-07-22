@@ -32,8 +32,8 @@ header{
 }
 
 #menu-h ul li img{
-    height: 30px; 
-    width: 40px;
+    height: 100%; 
+    width: 100%;
    
   }
 
