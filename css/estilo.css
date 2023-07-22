@@ -381,7 +381,7 @@ height: 100%
 
   .subtitle {
     font-size: 0.725rem;
-    max-width: 80%;
+    max-width: 90%;
     text-align: center;
     line-height: 1.1rem;
     color: #ffffff;
@@ -413,7 +413,7 @@ height: 100%
 
   .input_label {
     font-size: 0.75rem;
-    color: #C29CDE;
+    color: #ffffff;
     font-weight: 600;
   }
 
