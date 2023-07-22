@@ -273,7 +273,7 @@ height: 100%
 .column { /* colunas de card*/
     float: left;
     width:100%;
-    height: 700px;
+    height: 600px;
   margin: 20px;
    
     text-align: center;   
