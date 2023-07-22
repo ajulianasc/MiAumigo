@@ -342,12 +342,12 @@ height: 100%
             box-sizing: border-box;
     width: 100px;
     height: 90px;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(14, 13, 13, 0)), to(#7479FF));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0)), to(#7479FF));
     background: #7479FF;
     background: #7479FF;
     border: 1px solid ;
-    -webkit-filter: drop-shadow(0px 0.5px 0.5px #7479FF;) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
-            filter: drop-shadow(0px 0.5px 0.5px #7479FF;) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+    -webkit-filter: drop-shadow(0px 0.5px 0.5px #7479FF) drop-shadow(0px 1px 0.5px rgb(239, 240, 240));
+    filter: drop-shadow(0px 0.5px 0.5px #7479FF) drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
     border-radius: 11px;
   }
   .logo_container img{
