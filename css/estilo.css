@@ -433,7 +433,7 @@ height: 100%
 
   .input_field:focus {
     border: 1px solid transparent;
-    -webkit-box-shadow: 0px 0px 0px 2px #8848C4;
+    -webkit-box-shadow: 0px 0px 0px 2px #7479FF;
             box-shadow: 0px 0px 0px 2px #8848C4;
     background-color: transparent;
   }
