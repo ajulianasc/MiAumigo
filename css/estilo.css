@@ -55,7 +55,7 @@ header{
     padding: 0 1rem;
     padding-left: 2.5rem;
     border: 2px solid transparent;
-    border-radius: 10px;
+    border-radius: 15px;
     outline: none;
     background-color: #fff;
     color: white;
@@ -78,8 +78,8 @@ header{
     fill: #171ed4;
     width: 2rem;
     height: 1rem;
-    margin-bottom: 10px;
-    margin-top: 9px;
+    margin-bottom: 20px;
+    margin-top: 10px;
    }   
 #menu-h ul li a {
     font-family: 'Share Tech', sans-serif;
