@@ -376,7 +376,7 @@ height: 100%
     margin: 0;
     font-size: 1.25rem;
     font-weight: 700;
-    color: #fafbff;
+    color: #000000;
   }
 
   .subtitle {
@@ -523,7 +523,7 @@ height: 100%
 
   .note {
     font-size: 0.75rem;
-    color: #D7F0D3;
+    color: hsl(105, 100%, 99%);
     text-decoration: underline;
   }
   
