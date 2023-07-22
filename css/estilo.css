@@ -246,7 +246,8 @@ height: 100%
     margin-block-start: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
-    padding:2%;
+    padding:2%
+    border:20px;
     text-align: center;
     font-family: arial;
   }
