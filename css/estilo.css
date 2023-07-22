@@ -434,7 +434,7 @@ height: 100%
   .input_field:focus {
     border: 1px solid transparent;
     -webkit-box-shadow: 0px 0px 0px 2px #7479FF;
-            box-shadow: 0px 0px 0px 2px #8848C4;
+            box-shadow: 0px 0px 0px 2px #7479FF;
     background-color: transparent;
   }
 
@@ -462,7 +462,7 @@ height: 100%
         -ms-flex-pack: center;
             justify-content: center;
     gap: 10px;
-    background: #ffffff;
+    background: #FFC955;;
     border-radius: 7px;
     outline: none;
     color: #C29CDE;
